@@ -22,7 +22,7 @@ while ret:
 
         # plot results
         # cv2.rectangle
-        # cv2.putText
+        cv2.putText
         frame_ = results[0].plot()
 
         # visualize
